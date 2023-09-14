@@ -6,7 +6,7 @@
 /*   By: jareste- <jareste-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/14 03:00:24 by jareste-          #+#    #+#             */
-/*   Updated: 2023/09/14 05:21:10 by jareste-         ###   ########.fr       */
+/*   Updated: 2023/09/15 00:14:29 by jareste-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,8 +76,3 @@ std::ostream	&operator<<(std::ostream &out, Fixed const &fixedp)
 	out << fixedp.toFloat();
 	return (out);
 }
-// std::ostream &operator<<(std::ostream &out, Fixed const &fixedp)
-// {
-// 	out << fixedp.toFloat();
-// 	return (out);
-// }
