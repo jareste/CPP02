@@ -6,7 +6,7 @@
 #    By: jareste- <jareste-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/14 02:50:30 by jareste-          #+#    #+#              #
-#    Updated: 2023/09/14 04:12:46 by jareste-         ###   ########.fr        #
+#    Updated: 2023/09/14 05:19:22 by jareste-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,11 +14,11 @@ NAME = apuntoout
 
 SRCS = main.cpp Fixed.cpp
 
-HEADER = Fixed.h Fixed.hpp 
+HEADER = Fixed.hpp 
 
 CC = c++
 RM = rm -f
-CFLAGS = -Wall -Wextra -Werror -std=c++98 -g -fsanitize=address
+CFLAGS = -Wall -Wextra -Werror #-std=c++98 -g -fsanitize=address
 
 %.o: %.cpp Makefile ${HEADER}
 		@${CC} ${CFLAGS} -c $< -o $@
