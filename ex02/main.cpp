@@ -6,13 +6,14 @@
 /*   By: jareste- <jareste-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/14 03:00:16 by jareste-          #+#    #+#             */
-/*   Updated: 2023/09/15 01:39:45 by jareste-         ###   ########.fr       */
+/*   Updated: 2023/09/15 04:06:52 by jareste-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
 
-int main( void ) {
+int main(void)
+{
 	Fixed a;
 	Fixed c(5);
 	Fixed const b( Fixed( 5.05f ) * Fixed( 2 ) );
@@ -34,5 +35,5 @@ int main( void ) {
 	std::cout << "c/a= " << c/a << std::endl;
 	std::cout << "a*b= " << a*b << std::endl;
 
-return (0);
+	return (0);
 }
